@@ -4,4 +4,7 @@ project(lab6_c_)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(lab6_c_
-    main.cpp)
+    main.cpp
+        Game.cpp
+        Game.h
+)

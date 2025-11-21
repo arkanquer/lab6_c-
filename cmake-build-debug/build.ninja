@@ -55,6 +55,12 @@ build CMakeFiles/lab6_c_.dir/main.cpp.o: CXX_COMPILER__lab6_c__unscanned_Debug /
   OBJECT_DIR = CMakeFiles/lab6_c_.dir
   OBJECT_FILE_DIR = CMakeFiles/lab6_c_.dir
 
+build CMakeFiles/lab6_c_.dir/Game.cpp.o: CXX_COMPILER__lab6_c__unscanned_Debug /Users/yaroslavbyrak/CLionProjects/lab6_c-/Game.cpp || cmake_object_order_depends_target_lab6_c_
+  DEP_FILE = CMakeFiles/lab6_c_.dir/Game.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/lab6_c_.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab6_c_.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lab6_c_
@@ -63,7 +69,7 @@ build CMakeFiles/lab6_c_.dir/main.cpp.o: CXX_COMPILER__lab6_c__unscanned_Debug /
 #############################################
 # Link the executable lab6_c_
 
-build lab6_c_: CXX_EXECUTABLE_LINKER__lab6_c__Debug CMakeFiles/lab6_c_.dir/main.cpp.o
+build lab6_c_: CXX_EXECUTABLE_LINKER__lab6_c__Debug CMakeFiles/lab6_c_.dir/main.cpp.o CMakeFiles/lab6_c_.dir/Game.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
   OBJECT_DIR = CMakeFiles/lab6_c_.dir
   POST_BUILD = :
